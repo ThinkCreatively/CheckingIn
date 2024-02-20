@@ -16,7 +16,7 @@ const Health = () => {
         </div>
       ))}
       <div className="border-2 border-blue-500 text-center text-2xl w-1/2 align-center">
-        Detailed View
+        Detailed View Button
       </div>
     </div>
   );
