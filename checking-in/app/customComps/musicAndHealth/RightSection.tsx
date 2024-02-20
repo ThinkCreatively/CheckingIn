@@ -4,7 +4,7 @@ import Health from "./Health";
 
 const RightSection = () => {
   return (
-    <div className="flex justify-center border-2 border-yellow-900 w-full">
+    <div className="flex flex-col justify-center border-2 border-yellow-900 w-full">
       <Music />
       <Health />
     </div>
