@@ -1,5 +1,6 @@
 import WeatherSection from "./customComps/weatherSection/weather";
 import ArticleSection from "./customComps/articleSection/article";
+import RightSection from "./customComps/musicAndHealth/RightSection";
 
 export default function Home() {
   return (
@@ -7,9 +8,7 @@ export default function Home() {
       <div className="flex h-screen w-full bg-gray-500 justify-evenly">
         <ArticleSection />
         <WeatherSection />
-        <div className="flex justify-center border-2 border-yellow-900 w-full ">
-          Section
-        </div>
+        <RightSection />
       </div>
     </main>
   );
