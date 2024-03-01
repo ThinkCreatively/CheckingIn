@@ -10,7 +10,9 @@ const Music = () => {
         Artist Name
       </div>
       <div className="border-2 border-blue-500 my-10 text-center">Player?</div>
-      <div className="border-2 border-blue-500 my-10 text-center">Maybe create that daily playlist idea?</div>
+      <div className="border-2 border-blue-500 my-10 text-center">
+        Maybe create that daily playlist idea?
+      </div>
     </div>
   );
 };
